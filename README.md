@@ -25,7 +25,22 @@ functions(future):
 
 ## Simple
 
+<div align=center><img width="600" height="300" src="https://github.com/gjim50701/Chatroom/blob/master/image/showmenu.JPG"/></div>
+<div align=center>ShowMenu</div>
 
 <div align=center><img width="600" height="300" src="https://github.com/gjim50701/Chatroom/blob/master/image/register.JPG"/></div>
 <div align=center>Register</div>
+
+<div align=center><img width="600" height="300" src="https://github.com/gjim50701/Chatroom/blob/master/image/login.JPG"/></div>
+<div align=center>Login</div>
+
+<div align=center><img width="600" height="300" src="https://github.com/gjim50701/Chatroom/blob/master/image/logoutNotifyOnTime.JPG"/></div>
+<div align=center>Notify login or logout</div>
+
+<div align=center><img width="600" height="300" src="https://github.com/gjim50701/Chatroom/blob/master/image/sendMesToOne.JPG"/></div>
+<div align=center>Chat to someone</div>
+
+<div align=center><img width="600" height="300" src="https://github.com/gjim50701/Chatroom/blob/master/image/getMesFromOne.JPG"/></div>
+<div align=center>Get someone's message</div>
+
 
