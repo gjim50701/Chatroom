@@ -1,7 +1,7 @@
 # Chatroom
 
 This is my small project(learn from the lesson in youtube):
-https://www.youtube.com/watch?v=ryrlfsFbtVA&list=PLmOn9nNkQxJFWlwItS-iI3C-4jeARUNjqs
+https://www.youtube.com/watch?v=ryrlfsFbtVA&list=PLmOn9nNkQxJFWlwItS-iI3C-4jeARUNjqs.
 
 ## Tool and Environment
 
@@ -12,16 +12,16 @@ https://www.youtube.com/watch?v=ryrlfsFbtVA&list=PLmOn9nNkQxJFWlwItS-iI3C-4jeARU
 ## Introduction
 
 functions(now):
-1.Login and Logout
-2.Register
-3.Notify you who logined or logouted on time 
-3.Show Online User on time
-4.chat to someone or everyone
+1.Login and Logout.
+2.Register.
+3.Notify you who logined or logouted on time. 
+3.Show Online User on time.
+4.chat to someone or everyone.
 
 functions(future):
-1.Offline message
-2.Message List
-3.Others
+1.Offline message.
+2.Message List.
+3.Others.
 
 
 
