@@ -12,8 +12,8 @@ https://www.youtube.com/watch?v=ryrlfsFbtVA&list=PLmOn9nNkQxJFWlwItS-iI3C-4jeARU
 ## Introduction
 
 functions(now):  
-1.Login and Logout.  
-2.Register.  
+1.Register.  
+2.Login and Logout.  
 3.Notify you who logined or logouted on time.   
 3.Show Online User on time.  
 4.chat to someone or everyone.  
@@ -23,5 +23,9 @@ functions(future):
 2.Message List.  
 3.Others.  
 
+## Simple
 
 
+<div align=center>Register<img width="600" height="300" src="https://github.com/gjim50701/Chatroom/blob/master/image/register.JPG"/></div>
+
+<div align=center>Login<img width="600" height="300" src="https://github.com/gjim50701/Chatroom/blob/master/image/login.JPG.JPG"/></div>
