@@ -3,6 +3,7 @@ package main
 import (
 	"ex17/chatRoom/client/process"
 	"fmt"
+	"os"
 )
 
 var userID string
@@ -24,7 +25,6 @@ func main() {
 		fmt.Scanf("%d\n", &key)
 		switch key {
 		case 1:
-			fmt.Println("登入聊天室")
 			fmt.Println("請輸入用戶帳號:")
 			fmt.Scanf("%s\n", &userID)
 			fmt.Println("請輸入用戶密碼:")
@@ -36,7 +36,6 @@ func main() {
 			up.Login(userID, userPwd)
 
 		case 2:
-			fmt.Println("註冊用戶")
 			fmt.Println("請輸入用戶帳號:")
 			fmt.Scanf("%s\n", &userID)
 			fmt.Println("請輸入用戶密碼:")
@@ -50,7 +49,7 @@ func main() {
 
 		case 3:
 			fmt.Println("退出系統")
-			//loop = false
+			os.Exit(0)
 		default:
 			fmt.Println("輸入有誤 請重新輸入")
 		}

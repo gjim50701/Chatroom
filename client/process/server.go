@@ -1,6 +1,7 @@
 package process
 
 import (
+	"bufio"
 	"encoding/json"
 	"ex17/chatRoom/client/utils"
 	"ex17/chatRoom/common/message"
@@ -13,11 +14,11 @@ import (
 func ShowMenu() {
 
 	var key int
-	var context string
 	var oneOrAll int
 	var userID string
 
 	smsProcess := &SmsProcess{}
+	inputReader := bufio.NewReader(os.Stdin)
 
 	fmt.Println("\t 1 顯示在線用戶")
 	fmt.Println("\t 2 發送訊息")
@@ -36,12 +37,17 @@ func ShowMenu() {
 			fmt.Println("請輸入想發送對象:")
 			fmt.Scanf("%s\n", &userID)
 			fmt.Println("請輸入想發送訊息:")
-			fmt.Scanf("%s\n", &context)
-			fmt.Printf("對%s說:%s\n", userID, context)
+			context, err := inputReader.ReadString('\n')
+			if err != nil {
+				fmt.Println("輸入內容時有誤 error:", err)
+			}
 			smsProcess.SendSomeoneMes(userID, context)
 		} else if oneOrAll == 2 {
 			fmt.Println("請輸入想發送的訊息:")
-			fmt.Scanf("%s\n", &context)
+			context, err := inputReader.ReadString('\n')
+			if err != nil {
+				fmt.Println("輸入內容時有誤 error:", err)
+			}
 			smsProcess.SendGroupMes(context)
 		}
 	case 3:
