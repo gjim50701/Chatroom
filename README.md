@@ -28,4 +28,4 @@ functions(future):
 
 <div align=center>Register<img width="600" height="300" src="https://github.com/gjim50701/Chatroom/blob/master/image/register.JPG"/></div>
 
-<div align=center>Login<img width="600" height="300" src="https://github.com/gjim50701/Chatroom/blob/master/image/login.JPG.JPG"/></div>
+<div align=center>Login<img width="600" height="300" src="https://github.com/gjim50701/Chatroom/blob/master/image/login.JPG"/></div>
